@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ScannerPage from "./pages/ScannerPage";
 import VerificationPage from "./pages/VerificationPage";
 import SuccessPage from "./pages/SuccessPage";
