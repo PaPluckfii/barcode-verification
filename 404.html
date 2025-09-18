@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <script>
+      const path = window.location.pathname;
+      window.location.href = `${window.location.origin}${path.endsWith('/') ? path.slice(0, -1) : path}.html` || '/index.html';
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, <a href="/">click here</a>.</p>
+  </body>
+</html>
